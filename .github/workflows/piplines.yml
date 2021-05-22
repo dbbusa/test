@@ -17,6 +17,6 @@ jobs:
         to: ${{ secrets.MESSAGEID }}
         token: ${{ secrets.BOTTOKEN }}
         message: |
-          Project: Contact2QR
+          Project: test msg
           Commit Message: ${{ github.event.head_commit.message }}
           Commited Actor: ${{ github.actor }}
